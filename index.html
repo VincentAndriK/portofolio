@@ -1,69 +1,84 @@
-
+<!DOCTYPE html>
 <html lang="id">
-    <head>
-        <title>Portofolio</title>
-        <meta charset="utf-8">
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-        <meta content="Default page" name="description">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <script src="https://cdn.tailwindcss.com/"></script>
-    </head>
-    <body class="p-6">
-        <h1 class="text-3xl font-bold text-center">Portofolio</h1>
-        <div class="flex flex-auto mx-auto p-6">
-            <div class="flex-1">
-                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <img class="h-15 mx-auto" src="https://vincentandrik.github.io/portofolio/img/awr-pkh.png" alt="sppg" />
-                    </div>
-                    <a class="text-blue-600 visited:text-purple-600" href="https://s.id/PelaporanOP_PKH2025" target="_blank" rel="noopener noreferrer">
-                        <h3 class="text-xl font-bold">SIMDITJEN PKH (Katalog Aplikasi Ditjen PKH)</h3>
-                    </a>
-                    <p>Status: Aktif</p>
-                    <p>Pengembangan: Januari 2025</p>
-                    <p>Pemutakhiran Data : Berkala</p>
+<head>
+    <title>Portofolio</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="Portofolio aplikasi" name="description">
+    <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport">
+    <script src="https://cdn.tailwindcss.com/"></script>
+</head>
+<body class="bg-white text-gray-800">
+    <header class="py-8 px-4">
+        <h1 class="text-3xl md:text-4xl font-bold text-center">Portofolio</h1>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 pb-12 space-y-12">
+        <!-- Group 1 -->
+        <section class="grid gap-8 sm:grid-cols-2">
+            <article class="border rounded-lg p-5 shadow-sm hover:shadow-md transition bg-white">
+                <div class="flex justify-center mb-4">
+                    <img class="h-30 object-contain" src="https://vincentandrik.github.io/portofolio/img/awr-pkh.png" alt="SIMDITJEN PKH">
                 </div>
-            </div>
-            <div class="flex-1">
-                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <img class="h-15 mx-auto" src="https://vincentandrik.github.io/portofolio/img/op-pasarnak-2025.png" alt="sppg" />
-                    </div>
-                    <a class="text-blue-600 visited:text-purple-600" href="https://s.id/PelaporanOP_PKH2025" target="_blank" rel="noopener noreferrer">
-                        <h3 class="text-xl font-bold">Laporan Harian Operasi Pasar Komoditas Peternakan HBKB Idul Fitri 2025</h3>
-                    </a>
-                    <p>Status: Tidak Aktif</p>
-                    <p>Pengembangan: Februari-Maret 2025</p>
-                    <p>Pemutakhiran Data : Harian</p>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-auto mx-auto p-6">
-            <div class="flex-1">
-                <div class="features-icons-icon d-flex">
-                    <img class="h-15 mx-auto" src="https://vincentandrik.github.io/portofolio/img/sitreps-okt-2025.png" alt="sitreps" />
-                </div>
-                <a class="text-blue-600 visited:text-purple-600" href="https://awr.ditjenpkh.pertanian.go.id/sitreps" target="_blank" rel="noopener noreferrer">
-                    <h3 class="text-xl font-bold">Situation Reports (Sitreps) Penyakit Hewan</h3>
+                <a class="text-blue-600 hover:underline" href="https://s.id/PelaporanOP_PKH2025" target="_blank" rel="noopener noreferrer">
+                    <h3 class="text-lg font-semibold">SIMDITJEN PKH (Katalog Aplikasi Ditjen PKH)</h3>
                 </a>
-                <p>Status: Aktif</p>
-                <p>Pengembangan: Akhir Mei 2025</p>
-                <p>Pemutakhiran Data : Bulanan</p>
-            </div>
-            <div class="flex-1">
-                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <img class="h-15 mx-auto" src="https://vincentandrik.github.io/portofolio/img/sppg-mapping.png" alt="sppg" />
-                    </div>
-                    <a class="text-blue-600 visited:text-purple-600" href="https://awr.ditjenpkh.pertanian.go.id/sppg/" target="_blank" rel="noopener noreferrer">
-                        <h3 class="text-xl font-bold">Peta Sebaran SPPG dan Infrastruktur SPPG PKH Nasional</h3>
-                    </a>
-                    <p>Status: Dalam Pengembangan</p>
-                    <p>Pengembangan: Akhir Juli 2025</p>
-                    <p>Pemutakhiran Data : Berkala</p>
+                <ul class="mt-3 text-sm space-y-1">
+                    <li><span class="font-medium">Status:</span> Aktif</li>
+                    <li><span class="font-medium">Pengembangan:</span> Januari 2025</li>
+                    <li><span class="font-medium">Pemutakhiran Data:</span> Berkala</li>
+                </ul>
+            </article>
+
+            <article class="border rounded-lg p-5 shadow-sm hover:shadow-md transition bg-white">
+                <div class="flex justify-center mb-4">
+                    <img class="h-30 object-contain" src="https://vincentandrik.github.io/portofolio/img/op-pasarnak-2025.png" alt="Operasi Pasar">
                 </div>
-            </div>
-        </div>
-        <p class=" text-center">Pengembang: Vincentius Andri Kurnianto</p>
-    </body>
+                <a class="text-blue-600 hover:underline" href="https://s.id/PelaporanOP_PKH2025" target="_blank" rel="noopener noreferrer">
+                    <h3 class="text-lg font-semibold">Laporan Harian Operasi Pasar Komoditas Peternakan HBKB Idul Fitri 2025</h3>
+                </a>
+                <ul class="mt-3 text-sm space-y-1">
+                    <li><span class="font-medium">Status:</span> Tidak Aktif</li>
+                    <li><span class="font-medium">Pengembangan:</span> Februari–Maret 2025</li>
+                    <li><span class="font-medium">Pemutakhiran Data:</span> Harian</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Group 2 -->
+        <section class="grid gap-8 sm:grid-cols-2">
+            <article class="border rounded-lg p-5 shadow-sm hover:shadow-md transition bg-white">
+                <div class="flex justify-center mb-4">
+                    <img class="h-30 object-contain" src="https://vincentandrik.github.io/portofolio/img/sitreps-okt-2025.png" alt="Situation Reports">
+                </div>
+                <a class="text-blue-600 hover:underline" href="https://awr.ditjenpkh.pertanian.go.id/sitreps" target="_blank" rel="noopener noreferrer">
+                    <h3 class="text-lg font-semibold">Situation Reports (Sitreps) Penyakit Hewan</h3>
+                </a>
+                <ul class="mt-3 text-sm space-y-1">
+                    <li><span class="font-medium">Status:</span> Aktif</li>
+                    <li><span class="font-medium">Pengembangan:</span> Akhir Mei 2025</li>
+                    <li><span class="font-medium">Pemutakhiran Data:</span> Bulanan</li>
+                </ul>
+            </article>
+
+            <article class="border rounded-lg p-5 shadow-sm hover:shadow-md transition bg-white">
+                <div class="flex justify-center mb-4">
+                    <img class="h-30 object-contain" src="https://vincentandrik.github.io/portofolio/img/sppg-mapping.png" alt="Peta Sebaran SPPG">
+                </div>
+                <a class="text-blue-600 hover:underline" href="https://awr.ditjenpkh.pertanian.go.id/sppg/" target="_blank" rel="noopener noreferrer">
+                    <h3 class="text-lg font-semibold">Peta Sebaran SPPG dan Infrastruktur SPPG PKH Nasional</h3>
+                </a>
+                <ul class="mt-3 text-sm space-y-1">
+                    <li><span class="font-medium">Status:</span> Dalam Pengembangan</li>
+                    <li><span class="font-medium">Pengembangan:</span> Akhir Juli 2025</li>
+                    <li><span class="font-medium">Pemutakhiran Data:</span> Berkala</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="py-6 px-4 text-center text-sm text-gray-600">
+        Pengembang: Vincentius Andri Kurnianto
+    </footer>
+</body>
 </html>
